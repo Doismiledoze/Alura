@@ -1,0 +1,2 @@
+Sobre repositórios - GitHub Docs - https://docs.github.com/pt/repositories/creating-and-managing-repositories/about-repositories
+Definir a visibilidade do repositório - GitHub Docs - https://docs.github.com/pt/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility
