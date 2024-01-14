@@ -1,9 +1,0 @@
-//AULA 01
-//Imprimindo no console
-public class Exemplo {
-
-  public void main(String[] args) { //Não possui a declaração static no método
-    System.println("Oi, meu nome é Alura!"); //Não foi usado System.out.println
-  }
-
-}

@@ -1,0 +1,17 @@
+//AULA 01
+//Imprimindo no console
+public class Exemplo {
+
+  public void main(String[] args) { //Não possui a declaração static no método
+    System.println("Oi, meu nome é Alura!"); //Não foi usado System.out.println
+  }
+
+}
+
+//AULA 02
+//Concatenação de String e inteiros
+String saudacao = "Olá, meu nome é ";
+String nome = "Alice ";
+String continuacao = "e minha idade é ";
+int idade = 17;
+System.out.println(saudacao + nome + continuacao + idade); //Código OK
