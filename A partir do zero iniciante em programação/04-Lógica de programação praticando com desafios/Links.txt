@@ -1,0 +1,1 @@
+ Como embaralhar arrays com o algoritmo Fisher–Yates - http://cangaceirojavascript.com.br/como-embaralhar-arrays-algoritmo-fisher-yates/
