@@ -1,0 +1,135 @@
+//AULA 01
+//Manipulando objetos
+public class Venda {
+    
+    String produto;
+    int quantidade;
+    double valorUnitario;
+    double valorTotal;
+
+}
+
+public static void main(String[] args) {
+    Venda venda1 = Venda(); //INSTANCIA DE FORMA ERRADA
+    venda1.produto = "Camiseta";
+    venda1.quantidade = "2"; //STRING NO LUGAR DE DOUBLE
+    venda1.valorUnitario = 25.50;
+
+    System.out.println("Valor total da venda: " + venda1.quantidade * venda1.valorUnitario);
+}
+
+//Definição de métodos
+public class Produto {
+
+    String nome;
+    double preco;
+    double descontoParaPix;
+
+    double pegaPrecoFinal(boolean pagamentoViaPix) {
+        if (pagamentoViaPix == true) {
+            double precoFinal = preco - descontoParaPix;
+        } else {
+            double precoFinal = preco;
+        }
+    }
+
+}
+
+//AULA 02
+//Código encapsulado
+public class Conta {
+    private int numero;
+    private int agencia;
+    private double saldo;
+
+    public void deposita(double valor) {
+        saldo += valor;
+    }
+
+    public void saca(double valor) {
+        if (valor <= saldo) {
+            saldo -= valor;
+        } else {
+            System.out.println("Saldo insuficiente.");
+        }
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public void setAgencia(int agencia) {
+        this.agencia = agencia;
+    }
+
+/*
+O atributo saldo somente deveria ser modificado pela própria classe, por meio dos métodos sacar e depositar, mas ao declarar um método setter para ele o encapsulamento será quebrado, pois o seu valor poderá ser modificado arbitrariamente de fora da classe.
+*/
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public int getAgencia() {
+        return agencia;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+}
+
+//AULA 03
+//
+public class Animal {
+
+    private String nome;
+    private double peso;
+
+    public void fazerBarulho() {
+        System.out.println("fazendo barulho!");
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+}
+
+public class Cachorro extends Animal {
+
+    public void fazerBarulho() {
+        System.out.println("Au au au!");
+    }
+
+    public void buscarOsso() {
+        System.out.println("Buscando o osso!");
+    }
+}
+
+
+public class Gato extends Animal {
+
+    public void brincarComLaser() {
+        System.out.println("Brincando com o laser!");
+    }
+}
+
+//RESOLUÇÃO: Como a classe Gato já está herdando de Animal, não pode herdar também características de Cachorro, pois no Java não é permitido herança múltipla.
+
+O método buscarOsso é exclusivo da classe Cachorro, portanto não é possível chamá-lo em um objeto do tipo Animal.
