@@ -1,0 +1,155 @@
+//AULA 01
+//Carrinho de compras
+public class Carrinho {
+
+  ArrayList<Produto> produtos = new ArrayList<>();
+    
+  public void adicionaProduto(Produto produto) {
+    produtos.add(produto);
+  }
+    
+}
+
+//RESOLUÇÃO
+public void adicionaProduto(Produto produto) {
+  if (produtos.size() < 10) {
+    produtos.add(produto);
+  } else {
+    System.out.prinln("Carrinho cheio!");
+  }
+}
+
+//AULA 02
+//Problemas com construtores
+public class Produto {
+
+    private String nome;
+    private double preco;
+
+    public Produto() {
+    }
+
+    public Produto(String nome, double preco) {
+        nome = nome; //Não utilizou this. para atribuir os valores à classe
+        preco = preco;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+}
+
+//Construtor da classe herdada
+public class Pessoa {
+
+    private String nome;
+    private int idade;
+    
+    public Pessoa(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+}
+
+public class Aluno extends Pessoa {
+
+    private int matricula;
+    private String curso;
+
+    //O construtor da classe Aluno não está chamando o construtor da classe Pessoa.
+    public Aluno(String nome, int idade, int matricula, String curso) {
+        this.matricula = matricula;
+        this.curso = curso;
+    }
+
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public String getCurso() {
+        return curso;
+    }
+}
+
+//AULA 03
+//Referências de objetos
+public class Produto {
+
+    private String nome;
+    private double preco;
+
+    public Produto(String nome, double preco) {
+        this.nome = nome;
+        this.preco = preco;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+}
+
+public class Teste {
+
+    public static void main(String[] args) {
+        Produto p1 = new Produto("Caneta", 1.50);
+        Produto p2 = p1;
+        p2.setPreco(2.00); //Altera o objeto, logo todas as referências também são afetadas
+        System.out.println(p1.getPreco());
+    }
+}
+
+//AULA 04
+//Método compareTo
+public class Conta {
+
+    private String titular;
+    private double saldo;
+
+    public Conta(String titular, double saldo) {
+        this.titular = titular;
+        this.saldo = saldo;
+    }
+
+    //getters e setters omitidos
+}
+
+//RESOLUÇÃO
+//Decrescente
+@Override
+public int compareTo(Conta outra) {
+    if (this.saldo < outra.saldo) {
+        return 1;
+    } else if (this.saldo > outra.saldo) {
+        return -1;
+    } else {
+        return 0;
+    }
+}
