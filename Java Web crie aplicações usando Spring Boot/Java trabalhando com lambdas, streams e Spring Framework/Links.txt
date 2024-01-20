@@ -1,0 +1,1 @@
+Documentação do Jackson Annotations - https://github.com/FasterXML/jackson
