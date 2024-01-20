@@ -153,3 +153,21 @@ public int compareTo(Conta outra) {
         return 0;
     }
 }
+
+//AULA 04
+//Criação de arquivos
+public class ExemploArquivo {
+  public static void main(String[] args) {
+    try {
+      FileWriter writer = new FileWriter("arquivo");
+
+      writer.write("Hello"); //O arquivo será salvo contendo o texto "Hello".
+      writer.close();
+      //Uma exceção será lançada ao tentar chamar pela segunda vez o método write, pois o FileWriter já foi fechado com a chamada ao método close.
+      writer.write(" World!"); 
+      writer.close();
+    } catch (Exception e) {
+      System.out.println("Erro!");
+    }
+  }
+}

@@ -1,0 +1,50 @@
+//AULA 01
+//Erro na requisição
+Scanner leitura = new Scanner(System.in);
+System.out.println("Digite a palavra para buscar no dicionário: ");
+String busca = leitura.nextLine();
+
+//A concatenação do endereço da API com o parâmetro busca não foi feita corretamente.
+String endereco = "https://www.apidicionario.com.br?palavra= +busca"; 
+
+HttpClient client = HttpClient.newHttpClient();
+HttpRequest request = HttpRequest.newBuilder().uri(URI.create(endereco)).build();
+//O método send deve ser chamado do objeto client e não do objeto request.
+HttpResponse<String> response = request.send(request, HttpResponse.BodyHandlers.ofString()); 
+
+System.out.println(response.body());
+
+//AULA 02
+//Conversão de JSON para Java
+public class ExemploGson {
+  public static void main(String[] args) {
+    String json = """
+          {
+            "nome" : "João",
+            "idade" : 30,
+            "email" : "joao@email.com"
+          }
+        """;
+
+    Gson gson = new Gson();
+    Pessoa pessoa = gson.fromJson(json, Pessoa.class);
+    System.out.println(pessoa.getIdade());
+  }
+
+  //O código vai executar sem nenhum erro e gerar uma saída no console.
+  //Essa é a única coisa que podemos afirmar, sem ter acesso ao código da classe Pessoa.
+}
+
+//AULA 03
+//Capturando uma exception
+try {
+  Pessoa p = null;
+  System.out.println(p.getNome());
+} catch (Exception e) {
+  System.out.println("Exception");
+} catch (ArrayIndexOutOfBoundsException e) {
+  System.out.println("Array Index Out Of Bounds Exception");
+} catch (NullPointerException e) {
+  System.out.println("Null Pointer Exception");
+}
+//O código vai gerar um erro de compilação, pois a exceção mais genérica, no caso a Exception, deve ser declarada no último bloco catch.
