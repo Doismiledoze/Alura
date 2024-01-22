@@ -4,8 +4,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
 
-import javax.swing.text.html.Option;
-
 import br.com.alura.screensound.model.Artista;
 import br.com.alura.screensound.model.Musica;
 import br.com.alura.screensound.model.TipoArtista;
