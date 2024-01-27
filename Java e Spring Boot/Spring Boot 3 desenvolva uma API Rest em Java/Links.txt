@@ -1,0 +1,5 @@
+Trello - Curso de Spring Boot - https://trello.com/b/O0lGCsKb/api-voll-med
+Layout mobile da aplicação Voll.med - https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med
+MySQL: da instalação até a configuração - https://www.alura.com.br/artigos/mysql-instalacao-configuracao?_gl=1*ezmdxy*_ga*NjI4ODA4Mzk4LjE3MDQ0Njc2NjM.*_ga_1EPWSW3PCS*MTcwNjM2OTM4Ni4yMy4xLjE3MDYzNzYyNjAuMC4wLjA.*_fplc*Y3FhZW5XaFJDd0ZGMmpCZmp5WnF3a1J4c09FWElxV2NMQzRJQ0ZZQ25DN2dzdlR5dlBMZ002NnlOWHdYeHZQdHR5eGxyWFVlNUlIWkk3elpJWUlreWJaOUxocmhhZEhZJTJGVG5jVEtJRTlJY3EzJTJGN3NRbmZ3UGZidlNJWGk2USUzRCUzRA..
+12 Factor App - https://12factor.net/
+Anotações do Bean Validation - https://jakarta.ee/specifications/bean-validation/3.0/jakarta-bean-validation-spec-3.0.html#builtinconstraints
