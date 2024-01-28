@@ -1,1 +1,2 @@
 Common Application Properties - https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
+Tipos de Autenticação: Senha, Token, JWT, Dois Fatores e Mais - https://www.alura.com.br/artigos/tipos-de-autenticacao?_gl=1*ks1b60*_ga*NjI4ODA4Mzk4LjE3MDQ0Njc2NjM.*_ga_1EPWSW3PCS*MTcwNjQ2NDkwMy4yNi4xLjE3MDY0NzAzOTUuMC4wLjA.*_fplc*Nzg5TlVQZnhQQkFxVG1EeUdOYXhxJTJCR3BiJTJGY2hBaUZjQ3RKUFJ3S3BBbSUyRmJGSnY0RFR3b244UnFkMVlmTFVPaEFTOWZZbUFRV1NqaGplJTJCdUpqWDJYeDFXQiUyRmhyMUNkVXFGOXNnc0VmVUxiUGdMT2VUTjdpcjI5c1c2dmslMkZnJTNEJTNE
