@@ -1,3 +1,4 @@
 Design Principles and Design Patterns - http://staff.cs.utu.fi/~jounsmed/doos_06/material/DesignPrinciplesAndPatterns.pdf
 Hipsters #129 - Práticas de Orientação a Objetos - https://cursos.alura.com.br/extra/hipsterstech/praticas-de-orientacao-a-objetos-hipsters-129-a453
 Hipsters #219 - SOLID: Código bom e bonito - https://cursos.alura.com.br/extra/hipsterstech/solid-codigo-bom-e-bonito-hipsters-ponto-tech-219-a649
+GraalVM Native Image Support - https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html
