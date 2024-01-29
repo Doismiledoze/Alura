@@ -21,11 +21,13 @@ import br.com.alura.api.domain.medico.DadosDetalhamentoMedico;
 import br.com.alura.api.domain.medico.DadosListagemMedico;
 import br.com.alura.api.domain.medico.Medico;
 import br.com.alura.api.domain.medico.MedicoRepository;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("medicos")
+@SecurityRequirement(name = "bearer-key")
 public class MedicoController {
 
     @Autowired

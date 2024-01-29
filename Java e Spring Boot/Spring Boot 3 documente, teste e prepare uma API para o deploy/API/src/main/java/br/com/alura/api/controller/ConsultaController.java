@@ -12,10 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.alura.api.domain.consulta.AgendaDeConsultas;
 import br.com.alura.api.domain.consulta.DadosAgendamentoConsulta;
 import br.com.alura.api.domain.consulta.DadosCancelamentoConsulta;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("consultas")
+@SecurityRequirement(name = "bearer-key")
 public class ConsultaController {
 
     @Autowired
