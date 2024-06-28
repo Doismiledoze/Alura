@@ -1,4 +1,4 @@
-# LISTA DE PAINEIS E RELATÓRIOS
+# LISTA DE PAINÉIS E RELATÓRIOS
 
 
 | ARQUIVO       | URL                            |
