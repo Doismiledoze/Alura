@@ -26,16 +26,7 @@
 
 - [Jogo do Número Secreto](https://gha-jogo-numero-secreto.vercel.app)
 
-## Módulos
 
-[Voltar à Navegação](#navegação)
-
- MODULO | O QUE APRENDEMOS
-------------|-----------
- Iniciando com JavaScript | <ul><li><p>Preparamos o ambiente de desenvolvimento com a instalação do Visual Studio Code para criar programas utilizando a linguagem JavaScript;</p></li><li><p>Entendemos o conceito de variável para guardar informações, como números ou palavras, para usar mais tarde no nosso programa;</p></li><li><p>Usamos o <code>alert</code> para exibir uma mensagem passando algumas instruções sobre o programa e usamos o <code>prompt</code> para interagir com a pessoa permitindo inserir um valor e armazenando em uma variável;</p></li><li><p>Criamos um <code>if</code>, que é uma instrução em programação que permite ao computador tomar decisões ao executar um bloco de código apenas se uma condição específica for verdadeira.</p></li></ul>
- Condicionais e concatenação | <ul><li><p>Utilizamos o console para testar e depurar nosso código, exibindo mensagens e valores durante a execução do programa;</p></li><li><p>Aprendemos a utilizar estruturas condicionais (if/else) para criar lógicas que permitem ao programa tomar decisões com base em condições específicas;</p></li><li><p>Implementamos um bloco de código para exibir uma mensagem caso o chute do usuário não seja igual ao número secreto;</p></li><li><p>Usamos template strings para concatenar o número secreto com o valor armazenado em uma variável e exibir uma mensagem personalizada.</p></li></ul>
- Loops e tentativas | <ul><li><p>Aprendemos a verificar se um número é maior ou menor do que outro utilizando estruturas condicionais (if/else) em nosso programa;</p></li><li><p>Utilizamos o loop "while" para repetir um bloco de código enquanto uma determinada condição for verdadeira, e permitir assim que o programa execute uma ação várias vezes;</p></li><li><p>Implementamos um contador de tentativas para acompanhar e exibir a quantidade de vezes que o usuário tentou adivinhar um número secreto. Podemos fazer isso, por exemplo, em um jogo de adivinhação.</p></li></ul>
- Boas práticas de programação | <ul><li><p>Aprendemos a evitar código duplicado utilizando estratégias para exibir a palavra "tentativas" no singular ou plural, dependendo do número de tentativas realizadas;</p></li><li><p>Analisamos a documentação e encontrar informações relevantes para o desenvolvimento do nosso programa;</p></li><li><p>Descobrimos como utilizar a função Math.random() para gerar um número aleatório, permitindo a criação de desafios e jogos mais dinâmicos e variados.</p></li></ul>
 
 ## Exercícios Extras
 
