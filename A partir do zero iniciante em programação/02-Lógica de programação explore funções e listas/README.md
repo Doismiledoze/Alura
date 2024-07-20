@@ -33,17 +33,13 @@
 
  MODULO | O QUE APRENDEMOS
 ------------|-----------
-Interagindo com HTML | <ul><li><p>Carregamos o projeto com o HTML e o CSS para criar a estrutura e o estilo da página que utilizaremos durante o curso;</p>
-</li><li><p>Aprendemos a manipular o conteúdo dos elementos HTML, como o H1 e o parágrafo (p), utilizando JavaScript para alterar dinamicamente o texto exibido na página;</p>
+Interagindo com HTML | <ul><li><p>Carregamos o projeto com o HTML e o CSS para criar a estrutura e o estilo da página que utilizaremos durante o curso;</p></li><li><p>Aprendemos a manipular o conteúdo dos elementos HTML, como o H1 e o parágrafo (p), utilizando JavaScript para alterar dinamicamente o texto exibido na página;</p>
 </li><li><p>Entendemos a importância da interação entre o HTML e o JavaScript para criar páginas web dinâmicas e interativas.</p>
 </li></ul>
-Funções | <ul><li><p>Criamos uma função em JavaScript que recebe 2 parâmetros para gerar um número aleatório e entendemos como usar a estrutura de uma função para encapsular um trecho de código reutilizável;</p>
-</li><li><p>Utilizamos a palavra-chave "return" dentro da função para retornar o valor do número aleatório gerado e criamos outra função chamada <code>exibirMensagemInicialNaTela</code> que não possui retorno nem parâmetros;</p>
-</li><li><p>Compreendemos a diferença entre funções com retorno e funções sem retorno e aprendemos como chamar e invocar a função para exibir uma mensagem inicial na tela;</p>
+Funções | <ul><li><p>Criamos uma função em JavaScript que recebe 2 parâmetros para gerar um número aleatório e entendemos como usar a estrutura de uma função para encapsular um trecho de código reutilizável;</p></li><li><p>Utilizamos a palavra-chave "return" dentro da função para retornar o valor do número aleatório gerado e criamos outra função chamada <code>exibirMensagemInicialNaTela</code> que não possui retorno nem parâmetros;</p></li><li><p>Compreendemos a diferença entre funções com retorno e funções sem retorno e aprendemos como chamar e invocar a função para exibir uma mensagem inicial na tela;</p>
 </li><li><p>Vimos como os parâmetros e retornos são importantes para a comunicação entre funções e o restante do programa.</p>
 </li></ul>
-Reiniciando o jogo | <ul><li><p>Aprendemos como criar um programa para verificar se o “chute” inserido é igual ao número secreto definido. Utilizamos estruturas condicionais para tomar decisões com base no resultado dessa comparação;</p>
-</li><li><p>Criamos uma variável para armazenar a quantidade de tentativas realizadas pelo usuário;</p>
+Reiniciando o jogo | <ul><li><p>Aprendemos como criar um programa para verificar se o “chute” inserido é igual ao número secreto definido. Utilizamos estruturas condicionais para tomar decisões com base no resultado dessa comparação;</p></li><li><p>Criamos uma variável para armazenar a quantidade de tentativas realizadas pelo usuário;</p>
 </li><li><p>Vimos a importância de consultar a documentação da linguagem e das bibliotecas utilizadas no desenvolvimento do programa. A documentação é uma fonte valiosa de informações que nos auxilia na compreensão de conceitos e no uso correto das funcionalidades disponíveis.</p>
 </li></ul>
 Listas | <ul><li>Aprendemos a melhorar o código existente, tornando-o mais eficiente e legível. Neste caso, refatoramos a função que realiza o sorteio do número secreto, tornando-a mais robusta e garantindo que o número sorteado não seja repetido;</li></ul>
