@@ -227,7 +227,7 @@ function mostrarTabuada(numero) {
 </details>
 <br>
 <details>
-<summary></summary>
+<summary>Listas</summary>
 
 1. Crie uma lista vazia, com o nome listaGenerica.
 
