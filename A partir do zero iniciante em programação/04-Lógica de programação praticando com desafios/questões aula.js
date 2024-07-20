@@ -1,4 +1,27 @@
 //AULA 01
+//Programando a função reiniciar()
+function calcular() {
+
+    let quantidade = parseInt(document.getElementById('quantidade').value);
+    let valor = parseFloat(document.getElementById('valor').value);
+  
+    let total = quantidade * valor;
+  
+    if (quantidade >= 10 || valor >= 100) {
+      total = total - (total / 100 * 5);
+    }
+  
+    alert(`Valor total: ${total} `);
+    //função reiniciar não é chamada após o alert()
+  }
+  
+  
+  function reiniciar() {
+    quantidade.value = ''; //Variaveis foram declaradas dentro da funcção calcular()
+    valor.value = '';      //e não estarão visiveis na função reiniciar
+  }
+
+//AULA 02
 //Condicionais com if/else
 function calcularProbabilidadeAdocao() {
     let peso = document.getElementById('peso').value;
@@ -27,7 +50,7 @@ function calcularProbabilidadeAdocao() {
     return nota;
 }
 
-//AULA 02
+//AULA 03
 //Variáveis e cálculos
 function calcularCustoViagem(distancia, eficiencia, precoGasolina, velocidadeMedia) {
     let tempoViagem = distancia / velocidadeMedia;
@@ -36,7 +59,7 @@ function calcularCustoViagem(distancia, eficiencia, precoGasolina, velocidadeMed
     return custoTotal;
 }
 
-//AULA 03
+//AULA 04
 //Loops com while
 function calcularDescontoTotal(quantidadeDeJogos) {
     let desconto = 0;
@@ -55,7 +78,7 @@ function calcularDescontoTotal(quantidadeDeJogos) {
     return desconto;
 }
 
-//AULA 04
+//AULA 05
 //Loops com for
 for (let numero = 1; numero <= 100; numero++) {
     if (numero / 5) { // if (numero%5==0)
