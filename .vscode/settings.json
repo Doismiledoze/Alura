@@ -5,5 +5,6 @@
         "Dependencias/Java/gson-2.10.1.jar"
     ],
     "java.configuration.updateBuildConfiguration": "automatic",
-    "java.compile.nullAnalysis.mode": "disabled"
+    "java.compile.nullAnalysis.mode": "disabled",
+    "git.ignoreLimitWarning": true
 }
