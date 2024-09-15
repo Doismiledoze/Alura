@@ -26,8 +26,8 @@
 
 [Voltar à Navegação](#navegação)
 
-- [Entendendo as Formulas DAX]()
-- [Entendendo as Formulas DAX - Exercícios Extras]()
+- [Entendendo as Formulas DAX](]https://github.com/Doismiledoze/Alura/blob/main/Power%20BI/Power%20BI%20DAX%20contextos%20e%20itera%C3%A7%C3%A3o/Entendendo%20as%20Formulas%20DAX.pbix)
+- [Entendendo as Formulas DAX - Exercícios Extras](https://github.com/Doismiledoze/Alura/blob/main/Power%20BI/Power%20BI%20DAX%20contextos%20e%20itera%C3%A7%C3%A3o/Entendendo%20as%20Formulas%20DAX%20-%20Exerc%C3%ADcios%20Extras.pbix)
 
 ## Módulos
 
