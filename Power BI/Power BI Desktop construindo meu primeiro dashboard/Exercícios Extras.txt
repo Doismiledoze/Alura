@@ -1,5 +1,0 @@
-Você recebeu uma base de dados com as vendas de determinado produto ao longo dos meses de 2023. Para apresentar os dados em um dashboard de Power BI você pensou em qual tipo de visual adicionar para analisar esse tipo de série temporal. Qual tipo de gráfico você poderia utilizar e porque este visual é o mais adequado para esse tipo de dado?
-
-Ao longo do curso ajustamos a paleta de cores dos gráficos para ter um relatório mais harmônico a fim de facilitar as análises. Nesse sentido, e para praticar as personalizações de visuais no PBI, altere a cor da linha do filtro de semana do tipo "entre".
-
-Temos a possibilidade de em um mesmo visual detalhar os dados da nossa base. Por exemplo, dentro do curso partimos dos valores na compra dos livros de acordo com os autores, mas poderíamos também detalhar por obra produzida por cada um. Sendo assim, qual recurso do Power Bi podemos utilizar para atingir tal comportamento?
