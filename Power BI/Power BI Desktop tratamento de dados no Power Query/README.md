@@ -41,6 +41,9 @@ Finalizando os tratamentos | <ul><li>Renomear colunas e tabelas;</li><li>Excluir
 
 [Voltar à Navegação](#navegação)
 
+<details>
+<summary>Finalizando os tratamentos - DESAFIO</summary>
+
 1. <strong>Mostrar o total de pedidos da base de dados</strong><br>
 Uma das primeiras tarefas que você enfrentará como analista de dados nesse projeto é revelar o total de pedidos registrados na base de dados da Olist. Usando as suas habilidades no Power BI, você poderá criar uma visualização clara e concisa que mostrará o número de pedidos, fornecendo uma visão geral inicial abrangente da base de dados.
 
@@ -55,6 +58,46 @@ Outro aspecto importante para entender o negócio da Olist é analisar as catego
 
 5. <strong>Criar um filtro para segmentar os registros por ano</strong><br>
 Para facilitar a análise dos dados da Olist, será necessário criar um filtro que permita segmentar os registros por ano. Utilizando o Power BI, você poderá desenvolver um filtro interativo que permitirá à equipe explorar os dados de forma mais precisa e detalhada, isolando informações específicas de cada ano. Esse filtro será uma ferramenta valiosa para identificar tendências sazonais, avaliar o crescimento ao longo do tempo e fazer comparações entre diferentes períodos. Além disso, é importante criar um filtro que desconsidere pedidos sem data de aprovação (filtro para valores em branco nas datas).
+
+</details>
+
+<details>
+<summary>Finalizando os tratamentos</summary>
+
+1. Cite uma maneira de trocar a fonte de dados dentro do Power BI.
+
+```text
+Para trocar a fonte de dados no Power BI, você pode usar diferentes abordagens:
+
+a) No Power Query Editor, vá para "Transform data" e clique em "Source" para selecionar uma nova origem. Em seguida, aplique as alterações.
+
+b) Edite consultas no Power Query Editor, clicando com o botão direito na consulta desejada e escolhendo "Editar consulta". Modifique a origem na janela "Configurações da fonte".
+
+c) No Power BI Service online, acesse o conjunto de dados, clique em "Mais opções" e escolha "Configurações" para modificar a origem da fonte de dados.
+
+d) Use fórmulas M no Editor de Consultas para editar diretamente o código da consulta, como ajustar a URL em uma consulta de API.
+```
+
+2. Por que criamos o parâmetro caminhoPasta nesse projeto? Pontue as facilidades e principais utilidades.
+
+```text
+Parâmetros no Power Query permitem reutilizar consultas, automatizar atualizações, oferecer flexibilidade em filtros (por exemplo, datas), padronizar consultas para consistência, simplificar a manutenção e possibilitar interatividade com o usuário final. Em nosso projeto, utilizamos para automatizar o processo de obtenção de dados de diferentes bases para conseguirmos preparar os dados para as análises no Power BI. Esta funcionalidade facilita o compartilhamento do projeto com as partes interessadas.
+```
+
+3. Altere o tipo da coluna "Id item pedido" da tabela "olist_itens_pedidos" de texto para número.
+
+4. Saulo importou uma base de dados em .csv e percebeu que as colunas preçoe salário foram identificadas pelo Power BI como texto. Como Saulo pode ajustar o formato dessas colunas? Cite todas as maneiras que você lembrar.
+    - No Editor de Consultas: Selecionar a coluna, ir para "Transformar" e escolher o formato desejado.
+    - No Editor de Consultas (Mudança de Tipo): Clicar com o botão direito na coluna e escolher "Alterar Tipo".
+
+5. Explore a ferramenta do Power Query encontrando uma forma de calcular quantas linhas existem em nosso modelo.
+
+ ```text
+ Uma das formas de calcular a quantidade de linhas de nossa base de dados no Power Query é acessando o caminho Transformar → Contar Linhas. Ele irá gerar uma nova etapa apresentando na tela o resultado da consulta.
+ ```
+ 
+</details>
+
 
 ## Links Úteis
 

@@ -46,11 +46,39 @@ Construindo o Dashboard | <ul><li>Estruturar o relatório reunindo todos os visu
 
 [Voltar à Navegação](#navegação)
 
+<details>
+<summary>Resumindo dados</summary>
+
+1. Criar um cartão e buscar personalizá-lo
+    - Valor do balão: DIN, 53, cor #3A2761, com uma casa decimal;
+    - Rótulo da categoria: Segoe UI Light, 12, cor #3A2761;
+    - Tela de fundo: cor roxa (#C7B8E7) e transparência 40%;
+    - Fronteira visual: cor #3A2761 com 14px de cantos arredondados.
+
+</details>
+
+<details>
+<summary>Construindo o Dashboard</summary>
+
 1. Você recebeu uma base de dados com as vendas de determinado produto ao longo dos meses de 2023. Para apresentar os dados em um dashboard de Power BI você pensou em qual tipo de visual adicionar para analisar esse tipo de série temporal. Qual tipo de gráfico você poderia utilizar e porque este visual é o mais adequado para esse tipo de dado?
+
+```text
+Para analisar uma série temporal, como as vendas de um produto ao longo dos meses de 2023, um gráfico de linhas (line chart) seria uma escolha adequada no Power BI.
+```
 
 2. Ao longo do curso ajustamos a paleta de cores dos gráficos para ter um relatório mais harmônico a fim de facilitar as análises. Nesse sentido, e para praticar as personalizações de visuais no PBI, altere a cor da linha do filtro de semana do tipo "entre".
 
+```text
+Para alterar a cor do filtro, primeiro acesse o guia "Formato" e mude a cor na opção "Controle deslizante". Para combinar com a paleta de cores da Buscante podemos deixar na cor amarela (#E1C233).
+```
+
 3. Temos a possibilidade de em um mesmo visual detalhar os dados da nossa base. Por exemplo, dentro do curso partimos dos valores na compra dos livros de acordo com os autores, mas poderíamos também detalhar por obra produzida por cada um. Sendo assim, qual recurso do Power Bi podemos utilizar para atingir tal comportamento?
+
+```text
+Uma das maneiras é utilizar o drill down como um recurso de navegação que fornece uma visão mais detalhada e granular dos dados.
+```
+
+</details>
 
 ## Links Úteis
 

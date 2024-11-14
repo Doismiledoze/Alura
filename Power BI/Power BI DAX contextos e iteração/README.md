@@ -46,6 +46,9 @@ Categorizando dados | <ul><li>Utilizar funções lógicas, como IF e SWITCH.</li
 
 [Voltar à Navegação](#navegação)
 
+<details>
+<summary>Categorizando dados</summary>
+
 1. <strong>Paulo precisou criar uma nova coluna na tabela registro_vendas, pois queria adicionar a palavra capital ao lado da cidade de entrega. Para isso ele tentou a sintaxe:</strong><br>
 
     ```text
@@ -54,6 +57,12 @@ Categorizando dados | <ul><li>Utilizar funções lógicas, como IF e SWITCH.</li
 
     Porém, obteve um erro como retorno. Por que esse erro aconteceu e como ele pode construir essa coluna de forma correta?
 
+    ```text
+        Como se tratam de duas strings, ou seja, dois valores textuais, ele deve concatenar as informações, em vez de somar os valores. Para isso, ele pode utilizar o símbolo &
+        
+        Data nova = 'registro_vendas'[Cidade_Entrega] & ", capital"
+    ```
+
 2. <strong>Crie uma classificação para o preço de custo de cada livro. Se ele é abaixo de R$30,00 classifique como "custo baixo". Se custar mais que R$30,00 classifique como "custo alto".</strong><br>
 
 3. <strong>Acrescente agora uma classificação intermediária, com o nome de "preço médio". Essa classificação agora deve funcionar com os seguintes parâmetros:<br>
@@ -61,6 +70,7 @@ Preço de custo menor do que R$30,00 como "preço baixo",<br> entre R$30,00 e R$
 
 4. <strong>Queremos saber agora qual é o faturamento mínimo. Para isso, é necessário criar uma medida que utiliza uma função iteradora. Como podemos fazer?</strong>
 
+<details>
 
 ## Links Úteis
 
