@@ -1,0 +1,11 @@
+Prioridade	Tarefas	Status
+5	Enviar a documentação para Marcela Mendes	Concluída
+4	Finalizar o dicionário de variáveis da base de dados do projeto #234	Concluída
+10	Realizar os testes de validação do modelo do projeto #234	Não inciada
+7	Análise exploratória das variáveis disponíveis	Em andamento
+3	Solicitação de chamado para acessar as bases de dados necessárias do projeto #234	Concluída
+6	Finalização do ETL das bases de dados do projeto #234	Em andamento
+2	Brainstorm das infromações necessárias para construção do projeto #234	Concluída
+1	Finalizar o escopo e entregavéis do projeto #234	Concluída
+8	Levantamento das possiveis metodologias para o projeto #234	Em andamento
+9	Tratamento de outliers (valores átipicos) dos dados 	Em andamento
