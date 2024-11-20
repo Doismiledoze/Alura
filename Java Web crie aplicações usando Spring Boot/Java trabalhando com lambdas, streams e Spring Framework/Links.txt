@@ -1,2 +1,0 @@
-Documentação do Jackson Annotations - https://github.com/FasterXML/jackson
-O que é Git e Github: como configurar e primeiros passos - https://www.alura.com.br/artigos/o-que-e-git-github?_gl=1*f9x1rh*_ga*NjI4ODA4Mzk4LjE3MDQ0Njc2NjM.*_ga_1EPWSW3PCS*MTcwNTc2MzAzMS4xNi4xLjE3MDU3Njg2MTUuMC4wLjA.*_fplc*eUN5Z085Y2FFUGpEU3liSGs4JTJGbnJ2RzVtV3pYQTI4WUN6M3RxZHpEa2RkU3RRYTRrdVFid0lBSjIwNFU2RTA3bWJCdjlvOG9RVWh4QzR6WXBEOFpxZ1JMeUVnVE5Sa1Rmbkp1ekJOZ0V1MnFIYjhuR2diUDVoRjRlbWdkTnclM0QlM0Q.

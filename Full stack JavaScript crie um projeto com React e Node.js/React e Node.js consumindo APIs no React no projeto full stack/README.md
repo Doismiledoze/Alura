@@ -34,7 +34,7 @@
 
  MODULO | O QUE APRENDEMOS
 ------------|-----------
-Criando uma nova página Ver primeiro vídeo | <ul><li>O que é React Router e como criar o suas primeiras rotas para darmos início a uma nova página do Alura Books;</li><li>Como criar uma navegação entre páginas usando o Link.</li></ul>
+Criando uma nova página | <ul><li>O que é React Router e como criar o suas primeiras rotas para darmos início a uma nova página do Alura Books;</li><li>Como criar uma navegação entre páginas usando o Link.</li></ul>
 Requisições com Axios | <ul><li>Instalar a ferramenta Axios, que nos possibilitará fazer requisições HTTP na aplicação;</li><li>Utilizar o Axios para criar serviços e poder personalizar suas requisições pra determinados serviços;</li><li>Fazer requisições HTTP dentro de seus componentes para podermos acessar os dados da API dentro dos componentes;</li><li>Usar useEffect e entender suas regras, para que possamos lidar com chamadas à API que devem rodar no momento da inicialização do componente;</li><li>Entender conceitos de assincronismo, para que possamos lidar com o tempo de espera entre a chamada HTTP e a resposta.</li></ul>
 Rota de livros favoritos | <ul><li>Como criar uma API com mais de um tipo de rota, para que nossa aplicação possa ter duas fontes diferentes de dados e integrar esses dados entre si;</li><li>Consultar 2 arquivos JSON, para termos dois locais de armazenamento de dados dentro da aplicação.</li></ul>
 Usando API de favoritos | <ul><li>Como fazer POST e DELETE dentro dos componentes, para podermos adicionar e retirar livros da lista de favoritos;</li><li>Como manipular estados a partir de chamadas para a API, para que estes dados possam ser mostrados nas telas.</li></ul>
